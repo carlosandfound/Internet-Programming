@@ -1,3 +1,3 @@
-x500id: alvar357
-acc_login: foo
+x500id: alvar357 <br>
+acc_login: foo <br>
 acc_password: bar
