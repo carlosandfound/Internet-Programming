@@ -1,0 +1,74 @@
+<!DOCTYPE	html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<title>Places Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+    <script>
+      function valForm() {
+        var nameval = document.forms["myForm"]["placename"].value;
+        var addval1 = document.forms["myForm"]["addressline1"].value;
+        var addval2 = document.forms["myForm"]["addressline2"].value;
+        if (((/^[0-9a-zA-Z" "]+$/.test(nameval)) == true)
+        && ((/^[0-9a-zA-Z" "]+$/.test(addval1)) == true)
+        && ((/^[0-9a-zA-Z" "]+$/.test(addval2)) == true)) {
+  				return true;
+  			}
+  			else {
+  				//alert("Place Name and address must be alphanumeric");
+  				return true;
+  			}
+  		}
+  	</script>
+	</head>
+
+	<body>
+
+		<h2>Places Form</h2>
+    <ul>
+      <li><a href="alvar357myplaces.html">My Places</a></li>
+	  	<li><a href="alvar357form.html">Form Input</a></li>
+		</ul>
+    <br>
+
+		<form onsubmit = "return valForm()" name = "myForm" method = "POST" action = "http://localhost:9001">
+
+      <label>Place Name:</label>
+			<input type = "text" name = "placename" value = "Keller Hall">
+      <br>
+
+      <label>Address Line 1:</label>
+			<input type = "text" name = "addressline1" value = "200 Union St SE">
+      <br>
+
+      <label>Address Line 2:</label>
+			<input type = "text" name = "addressline2" value = "Minneapolis, MN">
+      <br>
+
+      <label>Start Time:</label>
+			<input type = "time" name = "opentime" value = "06:00">
+      <br>
+
+      <label>End Time:</label>
+			<input type = "time" name = "closetime" value = "10:00">
+      <br>
+
+      <label>Additional Info Text:</label>
+			<input type = "text" name = "additionalinfo" value = "CS Home Page">
+      <br>
+
+      <label>Additional Info URL:</label>
+			<input type = "url" name = "urlinfo" value = "https://www.cs.umn.edu">
+      <br>
+
+      <p>
+			<input type = "submit" value = "Submit" >
+			<input type = "reset" value = "Clear" >
+      </p>
+
+		</form>
+
+	</body>
+
+</html>

@@ -1,0 +1,32 @@
+.jumbotron {
+  background-color: #8FB581;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #136258;
+}
+
+.glyphicon-log-out, .top, th {
+  color: white;
+}
+
+.top {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #426234;
+}
+
+table, th, td {
+border: 1px solid black;
+text-align: center;
+}

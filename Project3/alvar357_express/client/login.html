@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="client/css/style.css">
+      <title>Login Page</title>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <h1>Login Page</h1>
+      <p>Please enter your user name and password. Both are case sensitive.</p>
+    </div>
+
+    <div class="container">
+      <div id="badlogin"></div>
+
+      <form name="validateLoginDetails" method="post" action="/validateLoginDetails">
+        <div class="form-group">
+          <label for="user">User:</label>
+          <input type="text" class="form-control" id="user" placeholder="Enter user name" name="user">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" value="Submit" onclick="location.href ='/favourites.html'">Submit</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="client/js/script.js"></script>
+  </body>
+
+</html>

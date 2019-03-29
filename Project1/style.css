@@ -1,0 +1,86 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: LightSkyBlue;
+  overflow: hidden;
+  border:1px solid black;
+}
+
+li {
+  float: left;
+  border-right:1px solid black;
+}
+
+li a {
+  display: block;
+  padding: 10px 100px;
+}
+
+li a:hover {
+  background-color: Black;
+}
+
+body {
+  background-color: LightGray;
+  height: 500px;
+}
+
+h1, h2, th, td, p {
+  text-align: center;
+}
+
+th, td {
+  padding: 5px;
+}
+
+table, th, td {
+  border: 3px solid black;
+}
+
+table {
+  width: 700px;
+  background-color: LightBlue;
+  border-collapse: collapse;
+}
+
+a:link, a:visited {
+  color: Crimson;
+}
+
+img {
+  width: 700px;
+  margin-top: 1%;
+}
+
+div.left_Side {
+  float: left;
+}
+
+div.widget {
+  float: right;
+}
+
+div.footer {
+  padding-top: 40%;
+  padding-bottom: 2%;
+  text-align: right;
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+}
+
+input {
+  margin-bottom: 1%;
+}
+
+form {
+  background-color: LightBlue;
+  margin: auto;
+  padding: 1%;
+  border: 1px solid black;
+  width: 30%;
+}

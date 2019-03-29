@@ -1,0 +1,33 @@
+.jumbotron {
+  background-color: #8FD2AC;
+}
+
+.btn-block {
+  background-color: #097ebc;
+}
+
+#curr_user {
+  background-color: #575b5e;
+  color: white;
+  font-weight: bold;
+}
+
+#curr_user:hover {
+  color: white;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+/*#006aa3*/
+a {
+  color: #097ebc !important;
+}
+
+a:hover {
+  color: #004870 !important;
+}

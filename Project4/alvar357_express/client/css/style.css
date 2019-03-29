@@ -1,0 +1,49 @@
+.jumbotron {
+  background-color: #8FB581;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #136258;
+}
+
+#curr_user {
+  color: white;
+}
+
+.glyphicon-log-out, .top, th {
+  color: white;
+}
+
+.glyphicon-trash, .glyphicon-pencil, .glyphicon-floppy-save, .glyphicon-remove {
+  color: black;
+}
+
+#edit_btn, #delete_btn, #save_btn, #cancel_btn {
+  border: none;
+  background: none;
+}
+
+.btn-sm {
+  margin-bottom: 10px !important;
+}
+
+.top {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #426234;
+}
+
+table, th, td {
+border: 1px solid black;
+text-align: center;
+}
